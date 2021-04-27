@@ -1,6 +1,8 @@
 module.exports = {
   title: 'Hello VuePress',
   description: 'Just playing around',
+  base: '/',
+  dest: 'public',
   head: [
     // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
